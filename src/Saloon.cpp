@@ -11,3 +11,5 @@ void Saloon::Update() {
 void Saloon::Exit() {
 
 }
+
+Saloon* Saloon::saloon = nullptr;

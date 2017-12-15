@@ -1,15 +1,20 @@
 #include "Home.h"
 
+Home::Home() {}
+
 void Home::Enter() {
 
 }
 
-void Home::Update() {
+void Home::Update(Agent* agent) {
 
-	miner->change()
+	// Si es compleix la condició
+	// Canvia l'escena: miner->ChangeState()
 
 }
 
 void Home::Exit() {
 
 }
+
+Home* Home::home= nullptr;

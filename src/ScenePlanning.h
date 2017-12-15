@@ -4,6 +4,12 @@
 #include "Scene.h"
 #include "Agent.h"
 #include "Path.h"
+#include "Miner.h"
+#include "State.h"
+#include "Mine.h"
+#include "Saloon.h"
+#include "Bank.h"
+#include "Home.h"
 
 class ScenePlanning :
 	public Scene
@@ -14,8 +20,13 @@ public:
 	void update(float dtime, SDL_Event *event);
 	void draw();
 	const char* getTitle();
+
+	Miner Joan;
+
 private:
 	std::vector<Agent*> agents;
+	
+
 	Vector2D coinPosition;
 	Vector2D currentTarget;
 	int currentTargetIndex;

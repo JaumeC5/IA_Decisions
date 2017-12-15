@@ -1,9 +1,117 @@
-﻿  utils.cpp
-  SteeringBehavior.cpp
-  SDL_SimpleApp.cpp
+﻿  State.cpp
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2653: 'Mine': is not a class or namespace name
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): error C2504: 'State': base class undefined
   ScenePlanning.cpp
-  main.cpp
-  Agent.cpp
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2653: 'Mine': is not a class or namespace name
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C3861: 'Instance': identifier not found
+  Saloon.cpp
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2653: 'Mine': is not a class or namespace name
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): error C2011: 'Saloon': 'class' type redefinition
+  c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): note: see declaration of 'Saloon'
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.cpp(3): error C2027: use of undefined type 'Saloon'
+  c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): note: see declaration of 'Saloon'
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.cpp(7): error C2027: use of undefined type 'Saloon'
+  c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): note: see declaration of 'Saloon'
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.cpp(11): error C2027: use of undefined type 'Saloon'
+  c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): note: see declaration of 'Saloon'
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.cpp(15): error C2027: use of undefined type 'Saloon'
+  c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): note: see declaration of 'Saloon'
+  Miner.cpp
+c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\sceneplanning.h(24): error C3646: 'Joan': unknown override specifier
+c:\users\mripoll\documents\github\ia_decisions\src\sceneplanning.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2440: 'initializing': cannot convert from 'Mine *' to 'State *'
+  c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2439: 'Miner::currentState': member could not be initialized
+  c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): note: see declaration of 'Miner::currentState'
+c:\users\mripoll\documents\github\ia_decisions\src\miner.cpp(14): error C2440: '=': cannot convert from 'Home *' to 'State *'
+  c:\users\mripoll\documents\github\ia_decisions\src\miner.cpp(14): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\mripoll\documents\github\ia_decisions\src\miner.cpp(19): error C2440: '=': cannot convert from 'Mine *' to 'State *'
+  c:\users\mripoll\documents\github\ia_decisions\src\miner.cpp(19): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\mripoll\documents\github\ia_decisions\src\miner.cpp(24): error C2440: '=': cannot convert from 'Bank *' to 'State *'
+  c:\users\mripoll\documents\github\ia_decisions\src\miner.cpp(24): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\mripoll\documents\github\ia_decisions\src\miner.cpp(29): error C2440: '=': cannot convert from 'Saloon *' to 'State *'
+  c:\users\mripoll\documents\github\ia_decisions\src\miner.cpp(29): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  Mine.cpp
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2653: 'Mine': is not a class or namespace name
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): error C2011: 'Mine': 'class' type redefinition
+  c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): note: see declaration of 'Mine'
+c:\users\mripoll\documents\github\ia_decisions\src\mine.cpp(3): error C2027: use of undefined type 'Mine'
+  c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): note: see declaration of 'Mine'
+c:\users\mripoll\documents\github\ia_decisions\src\mine.cpp(7): error C2027: use of undefined type 'Mine'
+  c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): note: see declaration of 'Mine'
+c:\users\mripoll\documents\github\ia_decisions\src\mine.cpp(11): error C2027: use of undefined type 'Mine'
+  c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): note: see declaration of 'Mine'
+c:\users\mripoll\documents\github\ia_decisions\src\mine.cpp(15): error C2027: use of undefined type 'Mine'
+  c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): note: see declaration of 'Mine'
+  Home.cpp
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2653: 'Mine': is not a class or namespace name
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): error C2011: 'Home': 'class' type redefinition
+  c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): note: see declaration of 'Home'
+c:\users\mripoll\documents\github\ia_decisions\src\home.cpp(3): error C2027: use of undefined type 'Home'
+  c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): note: see declaration of 'Home'
+c:\users\mripoll\documents\github\ia_decisions\src\home.cpp(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\mripoll\documents\github\ia_decisions\src\home.cpp(3): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+c:\users\mripoll\documents\github\ia_decisions\src\home.cpp(5): error C2027: use of undefined type 'Home'
+  c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): note: see declaration of 'Home'
+c:\users\mripoll\documents\github\ia_decisions\src\home.cpp(9): error C2027: use of undefined type 'Home'
+  c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): note: see declaration of 'Home'
+c:\users\mripoll\documents\github\ia_decisions\src\home.cpp(16): error C2027: use of undefined type 'Home'
+  c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): note: see declaration of 'Home'
+c:\users\mripoll\documents\github\ia_decisions\src\home.cpp(20): error C2027: use of undefined type 'Home'
+  c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): note: see declaration of 'Home'
+  Bank.cpp
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2143: syntax error: missing ';' before '*'
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2653: 'Mine': is not a class or namespace name
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2238: unexpected token(s) preceding ';'
+c:\users\mripoll\documents\github\ia_decisions\src\mine.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\saloon.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\home.h(4): error C2504: 'State': base class undefined
+c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): error C2011: 'Bank': 'class' type redefinition
+  c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): note: see declaration of 'Bank'
+c:\users\mripoll\documents\github\ia_decisions\src\bank.cpp(3): error C2027: use of undefined type 'Bank'
+  c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): note: see declaration of 'Bank'
+c:\users\mripoll\documents\github\ia_decisions\src\bank.cpp(7): error C2027: use of undefined type 'Bank'
+  c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): note: see declaration of 'Bank'
+c:\users\mripoll\documents\github\ia_decisions\src\bank.cpp(11): error C2027: use of undefined type 'Bank'
+  c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): note: see declaration of 'Bank'
+c:\users\mripoll\documents\github\ia_decisions\src\bank.cpp(16): error C2027: use of undefined type 'Bank'
+  c:\users\mripoll\documents\github\ia_decisions\src\bank.h(3): note: see declaration of 'Bank'
   Generating Code...
-  SDL_Planning.vcxproj -> C:\Users\mripoll\Documents\GitHub\IA_Decisions\\bin\SDL_Planning.exe
-  SDL_Planning.vcxproj -> C:\Users\mripoll\Documents\GitHub\IA_Decisions\\bin\SDL_Planning.pdb (Partial PDB)
+  Compiling...
+  main.cpp
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C2653: 'Mine': is not a class or namespace name
+c:\users\mripoll\documents\github\ia_decisions\src\miner.h(13): error C3861: 'Instance': identifier not found
+  Generating Code...

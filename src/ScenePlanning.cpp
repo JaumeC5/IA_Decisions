@@ -1,9 +1,13 @@
 #include "ScenePlanning.h"
 
+
 using namespace std;
 
 ScenePlanning::ScenePlanning()
 {
+
+
+	// Crear les instancies de les zones, estàtiques per a poder accedir des de qualsevol agent
 	draw_grid = false;
 
 	num_cell_x = SRC_WIDTH / CELL_SIZE;
